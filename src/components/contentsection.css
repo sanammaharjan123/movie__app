@@ -1,0 +1,43 @@
+/* ContentSection.css */
+.content-section {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  
+  .content-image {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .content-image img {
+    width: 200%;
+    border-radius: 8px;
+  }
+  
+  .content-details {
+    flex: 9;
+  }
+  
+  .content-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  .content-details p {
+    font-size: 16px;
+    color: #666; /* Adjust color as needed */
+  }
+  
+  /* Responsive Media Query */
+  @media (max-width: 768px) {
+    .content-section {
+      flex-direction: column;
+    }
+  
+    .content-image {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
